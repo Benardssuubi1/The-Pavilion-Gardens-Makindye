@@ -40,7 +40,7 @@ header p{margin:0;opacity:0.95}
 }
 
 .btn{display:inline-block;background:var(--accent-2);color:#fff;padding:12px 26px;border-radius:999px;text-decoration:none;font-weight:700;transition:transform .2s ease,background .2s ease}
-.btn:hover,.btn:focus{background:#e68900;transform:translateY(-3px);outline: none}
+.btn:hover,.btn:focus{background:darkgreen;transform:translateY(-3px);outline: none}
 .btn:focus{box-shadow:0 0 0 4px rgba(255,152,0,0.18)}
 
 .section{padding:40px 0}
@@ -210,3 +210,4 @@ h2{text-align:center;color:var(--accent);margin-bottom:12px}
 @media (max-width:800px){
   .reservation .reservation-form{grid-template-columns:1fr;padding:14px}
 }
+
