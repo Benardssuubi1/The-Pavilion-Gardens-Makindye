@@ -25,10 +25,10 @@ header p{margin:0;opacity:0.95}
 
 /* Navigation styles inserted for header nav */
 .site-nav{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
-.site-nav .nav-brand{font-weight:800;color:#fff;text-decoration:none;letter-spacing:0.6px}
-.site-nav .nav-toggle{display:none;background:transparent;border:0;color:#fff;font-size:1.2rem;cursor:pointer}
+.site-nav .nav-brand{font-weight:800;color:#000;text-decoration:none;letter-spacing:0.6px}
+.site-nav .nav-toggle{display:none;background:transparent;border:0;color:#000;font-size:1.2rem;cursor:pointer}
 .site-nav .nav-links{display:flex;gap:12px;align-items:center;margin:0;padding:0;list-style:none}
-.site-nav .nav-links li a{color:#fff;text-decoration:none;padding:8px 10px;border-radius:8px;transition:background .14s ease}
+.site-nav .nav-links li a{color:#000;text-decoration:none;padding:8px 10px;border-radius:8px;transition:background .14s ease}
 .site-nav .nav-links li a:hover,.site-nav .nav-links li a:focus{background:rgba(255,255,255,1);outline:none}
 
 @media (max-width:760px){
@@ -210,5 +210,6 @@ h2{text-align:center;color:var(--accent);margin-bottom:12px}
 @media (max-width:800px){
   .reservation .reservation-form{grid-template-columns:1fr;padding:14px}
 }
+
 
 
