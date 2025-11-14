@@ -210,6 +210,9 @@ h2{text-align:center;color:var(--accent);margin-bottom:12px}
 @media (max-width:800px){
   .reservation .reservation-form{grid-template-columns:1fr;padding:14px}
 }
+html{
+  scroll-behavior: smooth;
+}
 
 
 
